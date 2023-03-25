@@ -1,0 +1,185 @@
+/*
+paleta Colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+textos:
+Familia: 'Roboto'
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, arial;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+header {
+  background-color: #eac926;
+  padding: 10px;
+}
+
+header section p {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-pag {
+  display: none;
+}
+
+.nav-accesos {
+  display: none;
+}
+
+.burger-menu {
+  background-color: #1259c3;
+  width: 40px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  margin: 0 auto;
+  border-radius: 7px;
+  font-size: 20px;
+}
+
+.banner {
+  width: 100%;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.titulares {
+  font-size: 24px;
+  color: #666;
+}
+
+.tarjeta-articulo {
+  padding: 10px 0;
+}
+
+.tarjeta-datos {
+  border-top: #ebebeb 1px solid;
+  background-color: white;
+  padding: 15px;
+}
+
+.precios {
+  font-size: 18px;
+}
+.descuentos {
+  font-size: 16px;
+  color: #39b54a;
+}
+
+.descripciones {
+  font-size: 16px;
+  padding: 15px 0;
+  color: #666;
+}
+
+.div-truck {
+  border: #39b54a 2px solid;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.div-truck i {
+  color: #39b54a;
+}
+
+.icono-footer {
+  color: #1259c3;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: white;
+  color: #666;
+  padding: 20px;
+}
+
+footer section p {
+  padding-bottom: 60px;
+}
+
+footer h5 {
+  text-align: left;
+  text-decoration: none;
+  padding: 25px 25px 25px 10px;
+}
+
+/* tablet */
+@media (min-width: 361px) {
+  .tarjeta-articulo {
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+  }
+
+  .nav-pag {
+    display: block;
+  }
+
+  .nav-accesos {
+    display: block;
+  }
+
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  nav ul li {
+    list-style: none;
+  }
+
+  nav ul {
+    padding: 10px 0;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+}
+
+/* pc */
+@media (min-width: 769px) {
+  .descripciones {
+    display: none;
+  }
+}
