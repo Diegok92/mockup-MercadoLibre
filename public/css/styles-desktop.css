@@ -1,4 +1,13 @@
 @media (min-width: 1200px) {
+  .linea-sup {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .navbar {
+    max-width: 1200px;
+    margin: auto;
+  }
   .nav-pag {
     width: 40%;
   }

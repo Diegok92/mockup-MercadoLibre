@@ -1,0 +1,58 @@
+.register-form {
+  margin: 10px;
+}
+
+.register-form div {
+  text-align: center;
+}
+
+.register-form div input {
+  width: 80%;
+  max-width: 500px;
+  margin: 10px;
+  height: 30px;
+}
+.register-form div select {
+  width: 80%;
+  max-width: 500px;
+  height: 30px;
+  margin: 10px;
+}
+
+.categoria {
+  margin: 15px 0;
+}
+
+.checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  max-width: 500px;
+}
+.checkbox input {
+  height: 10px;
+}
+
+.file {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+  padding: 15px 0;
+}
+
+.botones {
+  width: 80%;
+  max-width: 500px;
+  height: 30px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.botones button {
+  width: 100%;
+  height: 30px;
+  background-color: #1259c3;
+  border-radius: 5px;
+  color: white;
+}
