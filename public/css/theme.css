@@ -42,9 +42,48 @@ header {
   padding: 10px;
 }
 
-header section p {
+header p {
   text-align: center;
   padding: 10px 0;
+}
+
+.linea-sup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.linea-sup a {
+  width: 50%;
+  max-width: 185px;
+}
+
+.div-searchbar {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.div-searchbar input {
+  border-radius: 5px 0 0 5px;
+  flex-grow: 1;
+  background-color: white;
+  border: none;
+  min-width: 100px;
+  max-width: 500px;
+  max-height: 40px;
+}
+
+.div-searchbar button {
+  border-radius: 0 5px 5px 0;
+  background-color: white;
+  order: none;
+  min-width: 40px;
+  max-height: 40px;
+  min-height: 40px;
+}
+
+.linea-sup div {
+  width: 50%;
 }
 
 .nav-pag {
@@ -55,6 +94,10 @@ header section p {
   display: none;
 }
 
+.nav-accesos i {
+  padding-left: 5px;
+}
+
 .burger-menu {
   background-color: #1259c3;
   width: 40px;
@@ -63,7 +106,7 @@ header section p {
   text-align: center;
   padding: 7px;
   margin: 0 auto;
-  border-radius: 7px;
+  border-radius: 20%;
   font-size: 20px;
 }
 
@@ -83,24 +126,37 @@ main {
 .titulares {
   font-size: 24px;
   color: #666;
+  padding: 15px 0;
+}
+
+.grupo-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ebebeb;
 }
 
 .tarjeta-articulo {
-  padding: 10px 0;
+  margin: 10px 0;
 }
 
 .tarjeta-datos {
   border-top: #ebebeb 1px solid;
   background-color: white;
   padding: 15px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .precios {
   font-size: 18px;
+  width: 50%;
 }
 .descuentos {
   font-size: 16px;
   color: #39b54a;
+  width: 50%;
 }
 
 .descripciones {
@@ -110,11 +166,15 @@ main {
 }
 
 .div-truck {
-  border: #39b54a 2px solid;
-  width: 40px;
-  height: 40px;
-  border-radius: 20px;
-  padding: 8px;
+  border: #39b54a 1px solid;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  background-color: white;
 }
 
 .div-truck i {
@@ -143,43 +203,4 @@ footer h5 {
   text-align: left;
   text-decoration: none;
   padding: 25px 25px 25px 10px;
-}
-
-/* tablet */
-@media (min-width: 361px) {
-  .tarjeta-articulo {
-    box-shadow: 0 0 10px rgb(100, 100, 100);
-  }
-
-  .nav-pag {
-    display: block;
-  }
-
-  .nav-accesos {
-    display: block;
-  }
-
-  nav ul li a {
-    color: black;
-    text-decoration: none;
-  }
-
-  nav ul li {
-    list-style: none;
-  }
-
-  nav ul {
-    padding: 10px 0;
-  }
-
-  .burger-menu {
-    display: none;
-  }
-}
-
-/* pc */
-@media (min-width: 769px) {
-  .descripciones {
-    display: none;
-  }
 }

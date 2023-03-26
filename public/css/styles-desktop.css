@@ -1,0 +1,15 @@
+@media (min-width: 1200px) {
+  .nav-pag {
+    width: 40%;
+  }
+  .nav-accesos {
+    width: 40%;
+  }
+  .tarjeta-articulo {
+    width: 23%;
+  }
+
+  .descripciones {
+    display: none;
+  }
+}

@@ -1,0 +1,55 @@
+@media (min-width: 480px) {
+  .linea-sup {
+    justify-content: space-between;
+  }
+
+  .linea-sup a {
+    width: 33%;
+  }
+
+  .linea-sup div {
+    width: 33%;
+  }
+
+  header p {
+    width: 30%;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .nav-pag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 45%;
+  }
+  .nav-accesos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 45%;
+  }
+
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  nav ul li {
+    list-style: none;
+  }
+
+  nav ul {
+    padding: 10px 0;
+  }
+
+  .burger-menu {
+    display: none;
+  }
+  .tarjeta-articulo {
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+    width: 45%;
+  }
+}
